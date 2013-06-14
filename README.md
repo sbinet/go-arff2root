@@ -17,3 +17,6 @@ $ go-arff2root -i data.arff -o data.root
 $ go-arff2root data.arff.gz data.root
 ```
 
+## Limitations
+
+- `arff.Nominal` values are not implemented (missing support for C-strings branches in `croot.Branch`)
